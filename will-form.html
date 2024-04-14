@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/calculator.css">
+
+    <title>My Will</title>
+</head>
+
+<body>
+    <div class="will-form-container">
+        <div class="side-menu">
+         <a href="" class="site-logo">
+             <img src="assets/img/logo.png" alt="">
+         </a>
+         <div class="mt-4">
+            <ul>
+                <li class="menu-title"><a href="">Personal Information</a></li>
+                <li class=" done"><a href="">Marital Status</a></li>
+                <li class=" "><a href="">Family tree &amp; inheritence</a></li>
+                <li class="menu-title"><a href="">Debts</a></li>
+                <li class=" "><a href="">Huquq Allah</a></li>
+                <li class=" "><a href="/">Religious Obligations to Spouse</a></li>
+                <li class=" "><a href="">Debts to Family and Friends</a></li>
+                <li class="menu-title"><a href="">Bequests</a></li>
+                <li class=" "><a href="">General Bequests</a></li>
+                <li class=" "><a href="">Charitable Bequests</a></li>
+                <li class=" "><a href="">Other Charitable Bequests</a></li>
+                <li class="menu-title"><a href="">Estate Management</a></li>
+                <li class=" "><a href="">Executors &amp; Guardians</a></li>
+                <li class=" "><a href="">Burial &amp; Autopsy</a></li>
+                <li class=" "><a href="">Special Instructions</a></li>
+    </ul>
+         </div>
+        </div>
+        <div class="will-form-section">
+            <div class="site-logo-sm">
+                <div class="menu-open" data-controller="sideMenu" data-action="click->sideMenu#toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p class="page-title">Family Tree &amp; Inheritance</p>
+            </div>
+            <div class="will-form">
+                <form action="">
+                    <div class="question-box  main-question">
+                        <div class="form-sub-title position-relative">
+                            <h3>Is your spouse Muslim?</h3>
+                            <span class="icon" data-controller="tooltip">
+                                <img src="assets/img/help-icon.svg" alt="" data-action="click->tooltip#show">
+                                <div class="icon-box" data-tooltip-target="tooltipBox">
+                                    Non-Muslims are not automatic legal heirs under Sharīʿa, but you are free to leave a bequest for your non-Muslim spouse.
+                                </div>
+                            </span>
+                        </div>
+                      
+                            
+                            <div class="field-container">
+                                <div class="radio-container">
+                                    <div class="d-md-inline-block">
+                                        <input id="radio-1" class="radio-custom" name="radio-group" type="radio" checked />
+                                        <label for="radio-1" class="radio-custom-label">Yes</label>
+                                </div>
+                                <div class="d-md-inline-block">
+                                    <input id="radio-2" class="radio-custom" name="radio-group" type="radio" />
+                                    <label for="radio-2" class="radio-custom-label">No</label>
+                            </div>
+
+
+               
+            
+                            </div>
+                            </div>
+                    </div>
+                </form>
+            </div>
+            <section class="calculator-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="">
+                                <button class="btn btn-outline-secondary float-left">Back</button>
+                                <button class="btn btn-secondary float-end">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+            <div class="icon-menu " data-controller="tooltip">
+                <div class="close-btn" data-action="">
+<img src="assets/img/close-icon.svg" alt="">
+                </div>
+                <div class="text pt-1">
+                                Non-Muslims are not automatic legal heirs under Sharīʿa, but you are free to leave a bequest for your non-Muslim spouse.
+                            </div>
+              </div>
+        </div>
+    </div>
+
+</body>
